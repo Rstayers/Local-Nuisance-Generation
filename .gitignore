@@ -1,0 +1,38 @@
+# Claude Code infrastructure
+CLAUDE.md
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and model weights (typically large)
+*.pth
+*.pt
+*.ckpt
+
+# Logs and outputs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
